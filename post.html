@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posts</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./post.css">
+</head>
+<body>
+   
+    <div class="navbar">
+       
+            <!-- Logo -->
+            <div class="navbar-logo">
+              <img src="./assets/Ellipse 1.png" alt="img" style="height: 40px;width: 40px;">
+              <img src="./assets/Coranu.png" alt="Logo" style="height: 30px;width: 120px;">
+            </div>
+          
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search by category (general or educational)">
+                </div>
+    
+        <!-- <h1>Create a Post</h1> -->
+        <button onclick="window.location.href='./index.html'" >BACK</button>
+    </div>
+
+    <div class="content">
+        <form id="postForm" class="form-section">
+            <input type="text" id="title" placeholder="Title" required>
+            <textarea id="description" placeholder="Description" required></textarea>
+            <select id="category" required>
+                <option value="educational">Educational</option>
+                <option value="general">General</option>
+            </select>
+            <button type="submit" class="postsList">Post</button>
+            
+        </form>
+
+        <div id="postsList" >
+            
+                <div class="post">
+                    <h3>Post Title 1</h3>
+                    <p>This is the content of the first post.</p>
+                </div>
+                <div class="post">
+                    <h3>Post Title 2</h3>
+                    <p>This is the content of the second post.</p>
+                </div>
+                <div class="post">
+                    <h3>Post Title 3</h3>
+                    <p>This is the content of the third post.</p>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <!-- <script type="module" src="./app.js"></script> -->
+        <script type="module" src="./firebase.js"></script>
+        <script type="module" src="./post.js"></script>
+
+    </div>
+</body>
+</html>

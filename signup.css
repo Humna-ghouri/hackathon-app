@@ -1,0 +1,242 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px 30px;
+  }
+      /* Logo Section */
+      .navbar-logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 30px 120px;
+      }
+  
+      .navbar-logo img {
+        height: 40px;
+      }
+  
+      /* Search Bar */
+      .search-bar {
+        flex: 1;
+        margin: 0 120px;
+      }
+  
+      .search-bar input {
+        width: 20%;
+        padding: 8px 10px;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+      }
+  
+      /* Buttons */
+      .navbar-buttons {
+        display: flex;
+        align-items: center;
+        gap: 17px;
+        
+        margin-right: 50px;
+      }
+  
+      .btn {
+        padding: 8px 10px;
+        border-radius: 9px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+  
+      .btn-hiring {
+        background-color: #1C5CFF;
+        color: white;
+        border: 1px solid white;
+        width: 90px;
+        height: 40px;
+      }
+  
+      .btn-hiring:hover {
+        background-color: white;
+        color: #1C5CFF;
+      }
+      .posts{
+        background-color: #1C5CFF;
+        color: white;
+        border: 1px solid white;
+        width: 90px;
+        height: 40px;
+        padding: 8px 10px;
+        border-radius: 9px;
+        font-size: 14px;
+        cursor: pointer;
+
+      }
+      .posts:hover{
+        background-color: white;
+        color: #1C5CFF;
+
+      }
+      .btn:hover{
+        background-color: white;
+        color: #1C5CFF;
+      }
+      .btn-login {
+        background-color:#1C5CFF;
+        color: white;
+        font-size: 16px;
+        border: 2px solid #1C5CFF;
+        width: 120px;
+        height: 40px;
+
+      }
+  
+      .btn-login:hover {
+        background-color: #1C5CFF;
+        border-color: white;
+        color: white;
+      }
+      /* nav comp */
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Input styles */
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-color: white;
+    outline: none;
+}
+
+/* Button styles */
+.signup-button {
+    background-color: #1C5CFF;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 80%;
+}
+
+.signup-button:hover {
+    background-color: grey;
+}
+
+/* Small text for sign-in link */
+.small {
+    margin-top: 10px;
+    color: #777;
+}
+
+.small a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.small a:hover {
+    text-decoration: underline;
+}
+
+      footer {
+        background-color: #f8f8f8; /* Light gray background */
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 2px solid #ddd;
+        margin-top: 500px;
+        margin-bottom: 0;
+    }
+    
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .footer-left {
+        max-width: 60%;
+        margin-left: 550px;
+    }
+    
+    .footer-left h2 {
+        font-size: 10px;
+        color: #333;
+        margin-bottom: 1px;
+        margin-top: 50px;
+    }
+    
+    .footer-left h5 {
+       
+        font-size:xx-large;
+        font-weight: 900;
+        color: blue;
+        margin-bottom: 20px;
+    }
+
+    
+    .newsletter-form {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .newsletter-form input {
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-right: 10px;
+        width: 300px;
+    }
+    
+    .submit-btn {
+        padding: 10px 20px;
+        background-color: #007BFF; /* Blue button */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .submit-btn:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+    
+    .footer-left h6 {
+        font-size: 14px;
+        color: #555;
+    }
+    
+    .footer-right {
+        max-width: 45%;
+    }
+    
+    .newsletter-img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 0px;
+    }
+    

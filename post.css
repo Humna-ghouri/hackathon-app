@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; /* Light background color */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color:rgba(241, 243, 249, 0.818); /* Navbar background color */
+    padding: 20px;
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between title and button */
+    align-items: center; /* Center align items vertically */
+}
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 120px;
+  }
+
+  .navbar-logo img {
+    height: 40px;
+  }
+
+  /* Search Bar */
+  .search-bar {
+    flex: 1;
+    margin: 0 120px;
+  }
+
+  .search-bar input {
+    width: 30%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+
+
+.navbar h1 {
+    color: 	#1C5CFF; /* Heading color */
+    font-size: 2.5em; /* Font size for the heading */
+    font-weight: bold; /* Bold text */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center align heading */
+    flex-grow: 1; /* Allow the heading to take up available space */
+    margin-left: 40px;
+}
+
+.navbar button {
+    background-color:	#1C5CFF; /* Button background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition effect */
+    font-size: large;
+}
+
+.navbar button:hover {
+    background-color: #1C5CFF; /* Change color on hover */
+}
+
+.content {
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items horizontally */
+    padding: 20px;
+}
+
+.form-section {
+    background-color: white; /* Background color for form section */
+    padding: 50px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px 	#1C5CFF; /* Subtle shadow */
+    width: 300px; /* Fixed width for the form section */
+    margin-bottom: 20px; /* Space below form section */
+}
+
+.form-section h2 {
+    text-align: center; /* Center align section headings */
+    color: #333; /* Heading color */
+    margin-bottom: 15px; /* Space below heading */
+}
+
+input[type="text"],
+textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside input */
+    margin-bottom: 15px; /* Space below input */
+    border: 2px solid white; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.4em; /* Font size */
+    transition: border-color 0.3s; /* Transition effect for border */
+    background-color: rgb(228, 226, 226);
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: 	white; /* Change border color on focus */
+}
+
+button[type="submit"] {
+    width: 100%; /* Full width for button */
+    padding: 15px; /* Padding inside button */
+    background-color:	#1C5CFF; /* Button background color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    color: 	white; /* Text color */
+    font-size: 1em; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+button[type="submit"]:hover {
+    background-color: grey; /* Change color on hover */
+}
+
+#postsList {
+    margin-top: 20px; /* Space above posts list */
+    text-align: center; /* Center align posts */
+    width: 300px; /* Match width of form section */
+}
+
+#postsList {
+    margin-top: 20px; /* Space above posts list */
+    text-align: center; /* Center align posts */
+    width: 300px; /* Match width of form section */
+}
+
+
+.post {
+    background-color: #fff; /* Background color for posts */
+    border: 2px solid #1C5CFF; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding inside post */
+    margin: 10px 0; /* Space between posts */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover effect */
+}
+
+.post:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Styling for the select dropdown */
+select {
+    width: 250px;  /* Set the width of the dropdown */
+    padding: 10px;  /* Add padding inside the dropdown */
+    font-size: 1rem;  /* Set the font size */
+    border: 2px solid #ddd;  /* Add a border around the dropdown */
+    border-radius: 5px;  /* Round the corners */
+    background-color: #f9f9f9;  /* Set a light background color */
+    color: #333;  /* Text color */
+    margin: 10px 0;  /* Space around the dropdown */
+    cursor: pointer;  /* Change cursor to pointer on hover */
+    transition: all 0.3s ease-in-out;  /* Smooth transition for all changes */
+}
+
+/* Hover effect for the select dropdown */
+select:hover {
+    border-color: #cbd6f3;  /* Change border color on hover */
+    background-color: #e6f7ff;  /* Change background color on hover */
+}
+
+/* Focus effect when the dropdown is selected */
+select:focus {
+    outline: none;  /* Remove default outline */
+    border-color: #1C5CFF;  /* Change border color when focused */
+    box-shadow: 0 0 5px #1C5CFF;  /* Add a glow effect when focused */
+}
+
+/* Styling for the options */
+option {
+    padding: 10px;  /* Add padding inside each option */
+    font-size: 1rem;  /* Set font size */
+    background-color: #fff;  /* Set background color for options */
+    color: #333;  /* Text color */
+}
+
+/* Hover effect for the options */
+option:hover {
+    background-color: #d3f8ff;  /* Change background on hover */
+    color: #333;  /* Keep text color the same */
+}
