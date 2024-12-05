@@ -10,7 +10,7 @@
         align-items: center;
         justify-content: space-between;
         background-color: rgba(241, 243, 249, 0.818);
-        padding: 20px 30px;
+        padding: 10px 20px;
       }
   
       /* Logo Section */
@@ -32,7 +32,7 @@
       }
   
       .search-bar input {
-        width: 30%;
+        width: 60%;
         padding: 8px 10px;
         border: 1px solid #ccc;
         border-radius: 15px;
@@ -57,23 +57,27 @@
       .btn-hiring {
         background-color: #1C5CFF;
         color: white;
-        border: 1px solid white;
-        width: 90px;
-        height: 40px;
+        border: 1px solid #1C5CFF;
+        width: 70px;
+        height: 35px;
       }
   
+      .btnbtn-login  :hover {
+        background-color: white;
+        color: #1C5CFF;
+      }
       .btn-hiring:hover {
         background-color: white;
         color: #1C5CFF;
       }
-  
+
       .btn-login {
         background-color:#1C5CFF;
         color: white;
         font-size: 16px;
         border: 2px solid #1C5CFF;
-        width: 160px;
-        height: 55px;
+        width: 140px;
+        height: 40px;
 
       }
   
@@ -166,7 +170,7 @@
         justify-content: space-between;
         align-items: center;
         border-top: 2px solid #ddd;
-        margin-top: 500px;
+        margin-top: 300px;
         margin-bottom: 0;
     }
     
@@ -241,3 +245,65 @@
         margin-bottom: 0px;
     }
     
+    @media (max-width: 1230px) {
+      /* Navbar adjustments */
+      .navbar {
+        flex-direction: column;
+        /* align-items: flex-start; */
+        padding: 10px;
+        align-items: center;
+      }
+      
+      .navbar-logo {
+        margin: 20px 0;
+      }
+    
+      .search-bar {
+        margin: 10px 0;
+        width: 100%;
+      }
+    
+      .search-bar input {
+        width: 50%;
+        margin-left: 30%;
+      }
+    
+      .navbar-buttons {
+        margin: 10px 0;
+        flex-direction: column;
+        gap: 10px;
+      }
+    
+      /* Post container adjustments */
+      .posts-list {
+        padding: 10px;
+      }
+    
+      .post {
+        width: 90%; /* Adjust to avoid overflow */
+      }
+    
+      /* Footer adjustments */
+      footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+      }
+    
+      .footer-left {
+        margin-left: 0;
+        max-width: 100%;
+      }
+    
+      .footer-right {
+        max-width: 100%;
+        margin-top: 20px;
+      }
+    }
+    @media (max-width: 1230px) {
+      .search-bar input {
+        width: 50%;
+        margin-left: 25%;
+      }
+
+    }

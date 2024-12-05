@@ -22,6 +22,67 @@ body {
   
       .navbar-logo img {
         height: 40px;
+      }    @media (max-width: 1230px) {
+        /* Navbar adjustments */
+        .navbar {
+          /* flex-direction: column; */
+          /* align-items: flex-start; */
+          padding: 10px;
+          align-items: center;
+        }
+        
+        .navbar-logo {
+          margin: 20px 0;
+        }
+      
+        .search-bar {
+          margin: 10px 0;
+          width: 100%;
+        }
+      
+        .search-bar input {
+          width: 50%;
+          margin-left: 30%;
+        }
+      
+        .navbar-buttons {
+          margin: 10px 0;
+          /* flex-direction: column; */
+          gap: 10px;
+        }
+      
+        /* Post container adjustments */
+        .posts-list {
+          padding: 10px;
+        }
+      
+        .post {
+          width: 90%; /* Adjust to avoid overflow */
+        }
+      
+        /* Footer adjustments */
+        footer {
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 20px;
+        }
+      
+        .footer-left {
+          margin-left: 0;
+          max-width: 100%;
+        }
+      
+        .footer-right {
+          max-width: 100%;
+          margin-top: 20px;
+        }
+      }
+      @media (max-width: 1230px) {
+        .search-bar input {
+          width: 50%;
+          margin-left: 25%;
+        }
+  
       }
   
       /* Search Bar */
@@ -178,7 +239,7 @@ input:focus {
     
     .footer-left {
         max-width: 60%;
-        margin-left: 550px;
+        margin-left: 500px;
     }
     
     .footer-left h2 {
@@ -239,4 +300,476 @@ input:focus {
         height: auto;
         margin-bottom: 0px;
     }
+    /* Base Styles (already provided) */
+
+/* Media Queries */
+
+/* For small devices (phones, portrait tablets) */
+/* General Button Styles */
+.btn {
+  padding: 8px 10px;
+  border-radius: 9px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hiring Button */
+.btn-hiring {
+  background-color: #1C5CFF;
+  color: white;
+  border: 1px solid white;
+  width: 90px;
+  height: 40px;
+}
+
+.btn-hiring:hover {
+  background-color: white;
+  color: #1C5CFF;
+}
+
+/* Posts Button */
+.posts {
+  background-color: #1C5CFF;
+  color: white;
+  border: 1px solid white;
+  width: 90px;
+  height: 40px;
+  padding: 8px 10px;
+  border-radius: 9px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.posts:hover {
+  background-color: white;
+  color: #1C5CFF;
+  border-color: #1C5CFF;
+
+}
+
+/* Login Button */
+.btn-login {
+  background-color: #1C5CFF;
+  color: white;
+  font-size: 16px;
+  border: 2px solid #1C5CFF;
+  width: 120px;
+  height: 40px;
+}
+
+.btn-login:hover {
+  background-color: white;
+  border-color: #1C5CFF;
+  color: #1C5CFF;
+}
+@media (max-width: 980px) {
+        /* Navbar adjustments */
+        .navbar {
+          /* flex-direction: column; */
+          /* align-items: flex-start; */
+          padding: 10px;
+          align-items: center;
+        }
+        
+        .navbar-logo {
+          margin: 20px 0;
+        }
+      
+        .search-bar {
+          margin: 10px 0;
+          width: 100%;
+        }
+      
+        .search-bar input {
+          width: 50%;
+          margin-left: 30%;
+        }
+      
+        .navbar-buttons {
+          margin: 10px 0;
+          /* flex-direction: column; */
+          gap: 10px;
+        }
+      
+
+  footer {
+    background-color: #f8f8f8; /* Light gray background */
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #ddd;
+    margin-top: 500px;
+    margin-bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-left {
+    max-width: 50%;
+    margin-left: 50px;
+ 
+}
+
+.footer-left h2 {
+    font-size: 10px;
+    color: #333;
+    margin-bottom: 1px;
+    margin-top: 50px;
+}
+
+.footer-left h5 {
+   
+    font-size:xx-large;
+    font-weight: 900;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+
+}
+@media (max-width: 780px) {
+          /* Navbar adjustments */
+          .navbar {
+            /* flex-direction: column; */
+            /* align-items: flex-start; */
+            padding: 10px;
+            align-items: center;
+          }
+          
+          .navbar-logo {
+            margin: 20px 0;
+          }
+        
+          .btn {
+            padding: 8px 10px;
+            border-radius: 9px;
+            font-size: 14px;
+            cursor: pointer;
+          }
+      
+          .btn-hiring {
+            background-color: #1C5CFF;
+            color: white;
+            border: 1px solid white;
+            width: 80px;
+            height: 30px;
+          }
+      
+          .btn-hiring:hover {
+            background-color: white;
+            color: #1C5CFF;
+          }
+          .posts{
+            background-color: #1C5CFF;
+            color: white;
+            border: 1px solid white;
+            width: 70px;
+            height: 30px;
+            padding: 8px 10px;
+            border-radius: 9px;
+            font-size: 12px;
+            cursor: pointer;
+            font-weight: bold;
     
+          }
+          .posts:hover{
+            background-color: white;
+            color: #1C5CFF;
+    
+          }
+          .btn:hover{
+            background-color: white;
+            color: #1C5CFF;
+          }
+          .btn-login {
+            background-color:#1C5CFF;
+            color: white;
+            font-size: 11px;
+            font-weight: bold;
+            border: 2px solid #1C5CFF;
+            width: 95px;
+            height: 30px;
+    
+          }
+      
+          .btn-login:hover {
+            background-color: #1C5CFF;
+            border-color: white;
+            color: white;
+          }
+    
+          /* .search-bar {
+            margin: 10px 0;
+            width: 100%;
+          }
+        
+          .search-bar input {
+            width: 50%;
+            margin-left: 30%;
+          } */
+        
+          .navbar-buttons {
+            margin: 10px 0;
+            /* flex-direction: column; */
+            gap: 10px;
+          }
+        
+  
+  footer {
+    background-color: #f8f8f8; /* Light gray background */
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #ddd;
+    margin-top: 500px;
+    margin-bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-left {
+    max-width: 40%;
+    margin-left: 50px;
+ 
+}
+
+.footer-left h2 {
+    font-size: 10px;
+    color: #333;
+    margin-bottom: 1px;
+    margin-top: 50px;
+}
+
+.footer-left h5 {
+   
+    font-size:xx-large;
+    font-weight: 900;
+    color: blue;
+    margin-bottom: 20px;
+}
+.footer-right img{
+  margin-left: 10px;
+}
+.footer-right img{
+width: 60%;
+}
+
+}@media (max-width: 759px) {
+  footer {
+    background-color: #f8f8f8; /* Light gray background */
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #ddd;
+    margin-top: 500px;
+    margin-bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-left {
+    max-width: 40%;
+    margin-left: 50px;
+ 
+}
+
+.footer-left h2 {
+    font-size: 10px;
+    color: #333;
+    margin-bottom: 1px;
+    margin-top: 50px;
+}
+
+.footer-left h5 {
+   
+    font-size:xx-large;
+    font-weight: 900;
+    color: blue;
+    margin-bottom: 20px;
+}
+.footer-right img{
+ display: none;
+}
+.footer-right img{
+width: 60%;
+}
+
+
+}
+@media (max-width:530px) {
+   /* Navbar adjustments */
+   .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    align-items:center;
+    
+  }
+  
+  .navbar-logo {
+    margin: 1px 0;
+  }
+
+  .btn {
+    padding: 8px 10px;
+    border-radius: 9px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .btn-hiring {
+    background-color: #1C5CFF;
+    color: white;
+    border: 1px solid white;
+    width: 80px;
+    height: 30px;
+  }
+
+  .btn-hiring:hover {
+    background-color: white;
+    color: #1C5CFF;
+  }
+  .posts{
+    background-color: #1C5CFF;
+    color: white;
+    border: 1px solid white;
+    width: 70px;
+    height: 30px;
+    padding: 8px 10px;
+    border-radius: 9px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+
+  }
+  .posts:hover{
+    background-color: white;
+    color: #1C5CFF;
+
+  }
+  .btn:hover{
+    background-color: white;
+    color: #1C5CFF;
+  }
+  .btn-login {
+    background-color:#1C5CFF;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    border: 2px solid #1C5CFF;
+    width: 95px;
+    height: 30px;
+
+  }
+
+  .btn-login:hover {
+    background-color: #1C5CFF;
+    border-color: white;
+    color: white;
+  }
+
+  /* .search-bar {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .search-bar input {
+    width: 50%;
+    margin-left: 30%;
+  } */
+
+  .navbar-buttons {
+    margin: 10px 0;
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+  footer {
+    background-color: #f8f8f8; /* Light gray background */
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #ddd;
+    margin-top: 500px;
+    margin-bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-left {
+    /* max-width: 40%; */
+    margin-left: 20px;
+ 
+}
+
+.footer-left h2 {
+    font-size: 10px;
+    color: #333;
+    margin-bottom: 1px;
+    margin-top: 50px;
+}
+
+.footer-left h5 {
+   
+    font-size:30px;
+    font-weight: 600;
+    color: blue;
+    margin-bottom: 10px;
+}
+.newsletter-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.submit-btn {
+  padding: 5px 10px;
+  background-color: #007BFF; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-right img{
+ display: none;
+}
+.footer-right img{
+width: 60%;
+}
+
+
+}
